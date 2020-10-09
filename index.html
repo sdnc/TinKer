@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tinker</title>
+  <link rel="icon" href="images/download.ico">
+  <!--Font Awesome CDN-->
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,600;0,700;0,900;1,100;1,300;1,400;1,600;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://kit.fontawesome.com/0104e2c7e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="titlesection">
+
+    <!-- Nav Bar (Responsive - button/options shrink)-->
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">tin<span class="ker">k</span>er</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Priser</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Last ned NÅ</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+    
+      <div class="row title-row">
+        <div class="col-lg-8 title">
+          <h1>Møt de heftigste eselene her i gården.</h1>
+          <div class="knapper">
+          <button type="button" class="btn btn-dark download-button" data-toggle="popover" title="Ay baba..." data-content="Hva er galt med deg?"><i class="fab fa-apple"></i> Last ned</button>
+          <button type="button" class="btn btn-outline-light download-button" data-toggle="popover" data-content="Har du virkelig ikke noe bedre å bruke tiden din på?"><i class="fab fa-google-play"></i> Last
+            ned</button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <img class="iphone-image" src="images/donkeyphone.png" alt="iphone-mockup">
+        </div>
+      </div>
+    
+    </section>
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row card-row">
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-check-circle feat-icon"></i>
+        <h3>Lett å bruke.</h3>
+        <p>Så lett å bruke at til og med en eselen klarer det.</p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-bullseye feat-icon"></i>
+        <h3>Elite Klientell.</h3>
+        <p>Ouff, om du ikke finner de diggeste eselene her.</p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-heart feat-icon"></i>
+        <h3>100% Garanti.</h3>
+        <p>Finn drømme-eselen din eller få pengene tilbake.</p>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>Wallah, de eselene her er deilige mann!</h2>
+          <img class="testimonial-image" src="images/ahmed2.jpg" alt="ahmed-profile">
+          <em>A. Mustafa, Skjetten</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Trodde verden var full av screaming princesses. Så møtte jeg Gro-Britt, min
+            tvillingsjel. Syke greier det her ja.</h2>
+          <img class="testimonial-image" src="images/haqon2.jpg" alt="lady-profile">
+          <em>Håqon G, Jessheim</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Helt siden jeg fant TinKer har jeg spart tusenvis av kroner på Tyrkiareiser.</h2>
+          <img class="testimonial-image" src="images/fjeld1.jpg" alt="lady-profile">
+          <em>Krissy, Skedsmo</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="logo" src="images/aftenposten.png" alt="tc-logo">
+    <img class="logo" src="images/vg.png" alt="tnw-logo">
+    <img class="logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="logo" src="images/rb.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+    <div class="price-header">
+      <h2 class="display-4">En Plan for Hvert Behov</h2>
+      <p>Alle har forskjellige eselbehov. Velg en plan som passer deg! </p>
+    </div>
+
+    <div class="card-container">
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 shadow-sm free-version-card">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Ay lo kerey!</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">Gratis</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>5 Matches Daglig</li>
+              <li>10 Meldinger Daglig</li>
+              <li>Ubegrenset Bruk av App</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark" data-toggle="popover" data-content="Blir flau på dine vegne helt ærlig">Bli med gratis!</button>
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Ker Squad</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">450kr <small class="text-muted">/ måned</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Ubegrenset med Matches</li>
+              <li>Ubegrenset med Meldinger</li>
+              <li>Ubegrenset Bruk av App</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-dark" data-toggle="popover" title="Ay lo kerey..." data-content="Vi må finne et bedre ord en Barallah for deg, for du er drøy mann">Skaff deg nå</button>
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal"><i class="fas fa-crown"></i> Ker Shah</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">799kr <small class="text-muted">/ måned</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Prioritetslisting</li>
+              <li>Ubegrenset med Matches</li>
+              <li>Ubegrenset med Meldinger</li>
+              <li>Ubegrenset Bruk av App</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-dark" data-toggle="popover" data-content="Bror du har ekte psychological problems as">Skaff deg nå</button>
+          </div>
+        </div>
+      </div>
+    <!-- <div class="row card-row">
+    <div class="card-deck">
+      <div class="card mb-4 box-shadow col-lg-4 col-md-6">
+        <div class="card-header">
+          <h4>Ay lo kerey!</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="price-heading">GRATIS</h1>
+          <ul class="list-unstyled mt-3 mb-4 ">
+            <li>5 Matches Per Dag</li>
+            <li>10 Meldinger Per Dag</li>
+            <li>Ubegrenset Bruk av App</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-outline-danger">Meld deg inn gratis</button>
+        </div>
+      </div>
+      <div class="card mb-4 box-shadow col-lg-4 col-md-6">
+        <div class="card-header">
+          <h4>Ker Squad</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="price-heading">450,- <br><small>NOK / måned</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Ubegrenset Matches</li>
+            <li>Ubegrenset Meldinger</li>
+            <li>Ubegrenset Bruk av App</li>
+          </ul>
+          <button type="button" class="price-btn btn btn-lg btn-block btn-danger">Skaff deg nå</button>
+        </div>
+      </div>
+      <div class="card mb-4 box-shadow col-lg-4">
+        <div class="card-header">
+          <h4>Ker Shah</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="price-heading">999,- <br><small>NOK / måned</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Prioritetslistet</li>
+            <li>Ubegrenset Matches</li>
+            <li>Ubegrenset Meldinger</li>
+            <li>Ubegrenset Bruk av App</li>
+          </ul>
+          <button type="button" class="price-btn btn btn-lg btn-block btn-danger">Skaff deg nå</button>
+        </div>
+      </div>
+    </div>
+    </div> -->
+    </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Hva venter du på? Finn <span id="idagtext">DIN</span> drømme-Ker <span id="idagtext">I DAG</span>!</h3>
+    <button type="button" class="download-button btn btn-dark btn-lg" data-toggle="popover" title="Med dagens internett" data-content="Du kunne lært deg Spansk, gitar, heftige bakeskills, histore ... og du velger å swipe på TinKer."><i class="fab fa-apple"></i> Last ned</button>
+          <button type="button" class="download-button btn btn-light btn-lg" data-toggle="popover" data-content="Foreldrene dine kjempet for å gi deg et bedre liv og se på deg nå."><i class="fab fa-google-play"></i> Last
+            ned</button>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+  <a><i class="social-icon fab fa-twitter" style="size: 2x;"></i></a>
+  <a><i class="social-icon fab fa-facebook" style="size: 2x;"></i></a>
+  <a><i class="social-icon fab fa-instagram" style="size: 2x;"></i></a>
+  <a><i class="social-icon far fa-envelope" style="size: 2x;"></i></a>
+<br>
+    <i style="color: gray;">© Copyright 2020 TinKer</i>
+
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();
+    });
+    </script>
+
+</body>
+
+</html>
